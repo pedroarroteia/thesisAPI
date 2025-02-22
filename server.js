@@ -45,7 +45,7 @@ function runPythonInference(imagePath, modelType) {
     });
 }*/
 
-app.post("/compare", upload.single("image"), async (req, res) => {
+app.post("/welcome", async (req, res) => {
     res.status(200).send({message: "Welcome to the API"});
 });
 
